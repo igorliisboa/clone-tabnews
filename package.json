@@ -16,10 +16,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "test": "jest",
-    "test:watch": "jest --watchAll",
     "lint:check": "prettier --check .",
-    "lint:fix": "prettier --write ."
+    "lint:fix": "prettier --write .",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "next": "^16.1.6",
